@@ -11,8 +11,8 @@ let store = {
         this._callSubscriber = observer;
     },
 
-    dispatchEvent(action) {
-        this._callSubscriber(this._state); 
+    dispatchEvent() {
+        this._callSubscriber(this._state);
     }
 }
 
