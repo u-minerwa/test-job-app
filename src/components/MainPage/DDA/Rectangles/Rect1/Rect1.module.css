@@ -1,10 +1,53 @@
-.rect1 img{
+.rect1 {
     width: 600px;
     height: 325px;
+    z-index: 3;
+    background-image: url("./../../../../../../public/rect1data.jfif");
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    filter: rgb(36, 178, 178);
+    border: 2px solid rgba(100, 100, 100, 0.33);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.group {
+    color: white;
+}
+
+.redCircle {
+    width: 93px;
+    height: 93px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(224, 30, 46, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styleSvg {
+    color: white;
+}
+
+.obr {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.text {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px;
+    margin-bottom: 40px;
 }
