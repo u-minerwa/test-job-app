@@ -1,0 +1,4 @@
+.rectangles {
+    display: flex;
+    flex-direction: row;
+}
