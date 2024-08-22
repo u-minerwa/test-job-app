@@ -4,7 +4,7 @@ import classes from './Prezentation.module.css';
 function Prezentation() {
     return (
         <div className={classes.prezentation}>
-            <button type="button">Заказать презентацию</button>
+            <button type="button">Запросить презентацию</button>
         </div>
     )
 }
