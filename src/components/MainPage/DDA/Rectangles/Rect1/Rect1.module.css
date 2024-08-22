@@ -1,3 +1,10 @@
-.rect1 {
-    color: white;
+.rect1 img{
+    width: 600px;
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    filter: rgb(36, 178, 178);
+    display: flex;
+    flex-direction: column;
 }
