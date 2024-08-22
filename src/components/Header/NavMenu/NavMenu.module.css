@@ -1,7 +1,6 @@
 .navigationmenu {
     display: flex;
     flex-direction: row;
-    
     font-size: 18px;
     line-height: 24px;
 }

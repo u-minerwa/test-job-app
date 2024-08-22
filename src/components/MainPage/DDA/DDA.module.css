@@ -1,0 +1,11 @@
+.dda {
+}
+
+.dda img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+
