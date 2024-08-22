@@ -1,10 +1,11 @@
 import React from "react";
 import classes from './DDA.module.css';
+import DDDAsvg from "./DDDAsvg/DDDAsvg";
 
 function DDA() {
     return (
         <div className={classes.dda}>
-            <img alt="bg" src='/ca18.png' ></img>
+            <DDDAsvg />
         </div>
     )
 }
