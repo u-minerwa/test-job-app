@@ -3,6 +3,7 @@ import classes from './DDA.module.css';
 import DDDAsvg from "./DDDAsvg/DDDAsvg";
 import AIText from "./AIText/AIText";
 import Rectangles from "./Rectangles/Rectangles";
+import Volna from "./Volna/Volna";
 
 function DDA() {
     return (
@@ -10,6 +11,7 @@ function DDA() {
             <DDDAsvg />
             <AIText />
             <Rectangles />
+            <Volna />
         </div>
     )
 }
