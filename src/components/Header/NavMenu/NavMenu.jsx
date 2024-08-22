@@ -6,19 +6,19 @@ function NavMenu() {
     return (
         <nav className={classes.navigationmenu}>
             <div className={classes.item}>
-                <NavLink to='/mainpage' activeClassName={classes.active}> Главная </NavLink>
+                <NavLink to='/mainpage'> Главная </NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink to='/products' activeClassName={classes.active}> Продукты </NavLink>
+                <NavLink to='/products'> Продукты </NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink to='/cases' activeClassName={classes.active}> Кейсы </NavLink>
+                <NavLink to='/cases'> Кейсы </NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink to='/experts' activeClassName={classes.active}> Эксперты </NavLink>
+                <NavLink to='/experts'> Экспертное мнение </NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink to='/contacts' activeClassName={classes.active}> Контакты </NavLink>
+                <NavLink to='/contacts'> Контакты </NavLink>
             </div>
         </nav>
     )
