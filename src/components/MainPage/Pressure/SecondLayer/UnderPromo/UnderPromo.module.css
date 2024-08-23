@@ -19,8 +19,9 @@
     border: none;
     background-color: rgba(224, 30, 46, 1);
     border-radius: 5px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 50px 10px 50px;
     cursor: pointer;
+    margin-bottom: 200px;
 }
 
 .buttonWhy button:hover {

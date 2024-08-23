@@ -1,0 +1,22 @@
+.underPercents {
+    position: relative;
+    width: 650px;
+    height: 650px;
+}
+
+.svg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.svg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    margin-top: 355px;
+    margin-left: 28px;
+}
+

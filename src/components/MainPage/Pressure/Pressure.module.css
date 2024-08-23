@@ -1,4 +1,7 @@
 .pressure {
+    width: 1350px;
+    height: 800px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
