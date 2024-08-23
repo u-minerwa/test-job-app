@@ -1,0 +1,4 @@
+.granularData {
+    display: flex;
+    flex-direction: column;
+}
