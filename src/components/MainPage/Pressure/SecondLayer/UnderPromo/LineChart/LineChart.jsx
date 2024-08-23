@@ -63,8 +63,8 @@ const options = {
                     return chartDataLabels[index];
                 },
                 font: {
-                    size: 14,
-                    weight: 'bold',
+                    size: 16,
+                    weight: 700,
                     family: 'Arial'
                 },
             },

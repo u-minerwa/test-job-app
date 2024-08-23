@@ -1,11 +1,9 @@
 .graphic {
-    width: 700px;
-    height: 400px;
-    background-color: aquamarine;
+    width: 600px;
+    height: 350px;
 }
 
 .underPromo {
-    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
