@@ -17,7 +17,6 @@ ChartJS.register(
     Legend
 );
 
-
 const labels = ["2015", "2016", "2017", "2018", "2019", "2020"];
 const data = {
     labels: labels,
@@ -85,6 +84,7 @@ const options = {
                 }
             },
             gridLines: {
+                drawOnChartArea: false,
                 color: function (context) {
                     const chartArea = context.chart.chartArea;
                     const yScale = context.chart.scales['y-axis-0'];
