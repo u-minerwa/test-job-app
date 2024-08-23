@@ -1,5 +1,20 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineController, Title, 
+    Tooltip, Filler, Legend, LineElement } from 'chart.js';
+
+ChartJS.register(
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineController,
+    Title,
+    Tooltip,
+    Filler,
+    LineElement,
+    Legend
+);
+
 
 const labels = ["2015", "2016", "2017", "2018", "2019", "2020"];
 const data = {
