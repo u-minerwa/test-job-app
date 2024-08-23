@@ -1,6 +1,15 @@
+.graphic {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
 .underPromo {
+    height: 600px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .buttonWhy button {
