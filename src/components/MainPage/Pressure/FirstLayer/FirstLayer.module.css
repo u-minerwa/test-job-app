@@ -1,4 +1,6 @@
 .firstLayer {
+    width: 1300px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
