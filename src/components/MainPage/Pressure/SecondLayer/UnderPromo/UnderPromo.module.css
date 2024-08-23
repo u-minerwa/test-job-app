@@ -1,0 +1,21 @@
+.underPromo {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonWhy button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    line-height: 24px;
+    border: none;
+    background-color: rgba(224, 30, 46, 1);
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+}
+
+.buttonWhy button:hover {
+    background-color: rgb(234, 64, 78);
+}
