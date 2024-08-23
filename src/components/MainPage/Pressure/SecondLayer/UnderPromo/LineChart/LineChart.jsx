@@ -1,7 +1,9 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineController, Title, 
-    Tooltip, Filler, Legend, LineElement } from 'chart.js';
+import {
+    Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineController, Title,
+    Tooltip, Filler, Legend, LineElement
+} from 'chart.js';
 
 ChartJS.register(
     CategoryScale,
@@ -55,6 +57,17 @@ const options = {
         x: {
             gridLines: {
                 drawOnChartArea: false,
+            },
+            ticks: {
+                callback: function (value, index, values) {
+                    const chartDataLabels = this.chart.data.labels;
+                    return chartDataLabels[index];
+                },
+                font: {
+                    size: 14,
+                    weight: 'bold',
+                    family: 'Arial'
+                },
             },
         },
         y: {
