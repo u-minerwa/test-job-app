@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
 import MainPage from './components/MainPage/MainPage';
 import Products from './components/Products/Products';
 import Cases from './components/Cases/Cases';
@@ -23,7 +22,6 @@ function App() {
             <Route path='/contacts' element={<Contacts />} />
           </Routes>
         </div>
-        <Footer />
       </div>
     </BrowserRouter>
   );
