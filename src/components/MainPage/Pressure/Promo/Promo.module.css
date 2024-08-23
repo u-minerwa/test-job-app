@@ -1,0 +1,10 @@
+.redRect {
+    color: rgba(224, 30, 46, 1);
+}
+
+.text {
+    color: black;
+    font-weight: 900;
+    size: 32px;
+    line-height: 39px;
+}
