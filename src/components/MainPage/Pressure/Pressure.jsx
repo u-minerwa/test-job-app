@@ -1,13 +1,11 @@
 import React from "react";
 import classes from './Pressure.module.css';
-import Promo from "./Promo/Promo";
-import Percents from "./Percents/Percents";
+import FirstLayer from "./FirstLayer/FirstLayer";
 
 function Pressure() {
     return (
         <div className={classes.pressure}>
-            <Promo />
-            <Percents />
+            <FirstLayer />
         </div>
     )
 }
