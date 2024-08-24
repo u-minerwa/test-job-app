@@ -1,0 +1,6 @@
+.dotsSwipe {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% + 40px);
+}
