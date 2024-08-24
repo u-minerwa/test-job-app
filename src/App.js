@@ -6,6 +6,7 @@ import Products from './components/Products/Products';
 import Cases from './components/Cases/Cases';
 import Experts from './components/Experts/Experts';
 import Contacts from './components/Contacts/Contacts';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/contacts' element={<Contacts />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

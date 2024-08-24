@@ -1,3 +1,23 @@
-.contentL {
-    background-color: antiquewhite;
+.cifra {
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 96px;
+    line-height: 115px;
+    color: rgba(239, 239, 239, 1);
+}
+
+.textOnCifra {
+    position: relative;
+    z-index: 3;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: black;
+    margin-top: -50px;
+}
+
+.bu {
+    width: 100px;
+    height: 200px;
 }
