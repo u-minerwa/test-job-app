@@ -17,6 +17,15 @@
     margin-top: -50px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 370px;
+}
+
 .redCircle {
     width: 73px;
     height: 73px;
@@ -36,4 +45,13 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 250px;
 }
