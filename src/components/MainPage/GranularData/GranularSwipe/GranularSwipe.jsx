@@ -3,6 +3,7 @@ import classes from './GranularSwipe.module.css';
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import DotsIndicator from "./DotsIndicator/DotsIndicator";
+import DotsIndicatorM from "./DotsIndicatorM/DotsIndicatorM";
 
 function GranularSwipe() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -10,7 +11,7 @@ function GranularSwipe() {
     return (
         <div className={classes.swiper}>
             <Swiper
-                spaceBetween={50}
+                spaceBetween={30}
                 slidesPerView={1}
                 mousewheel={{ enabled: true }}
                 onSlideChange={(swiper) => {
@@ -22,6 +23,7 @@ function GranularSwipe() {
                 <SwiperSlide>Блок 3</SwiperSlide>
             </Swiper>
             <DotsIndicator activeIndex={activeIndex} />
+            <DotsIndicatorM activeIndex={activeIndex} />
         </div>
     );
 }

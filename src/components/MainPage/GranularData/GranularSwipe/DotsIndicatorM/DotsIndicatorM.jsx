@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './DotsIndicator.module.css';
+import classes from './DotsIndicatorM.module.css';
 
-const DotsIndicator = ({ activeIndex }) => {
+const DotsIndicatorM = ({ activeIndex }) => {
     return (
         <div className={classes.dotsContainer}>
             {[0, 1, 2].map(index => (
@@ -14,4 +14,4 @@ const DotsIndicator = ({ activeIndex }) => {
     );
 };
 
-export default DotsIndicator;
+export default DotsIndicatorM;
