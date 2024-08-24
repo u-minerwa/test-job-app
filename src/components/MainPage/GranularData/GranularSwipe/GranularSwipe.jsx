@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import classes from './GranularSwipe.module.css';
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import DotsIndicator from "./DotsIndicator/DotsIndicator";
-import DotsIndicatorM from "./DotsIndicatorM/DotsIndicatorM";
+import DotsIndicator from "./SwipeContent/DotsIndicator/DotsIndicator";
+import DotsIndicatorM from "./SwipeContent/DotsIndicatorM/DotsIndicatorM";
 import SwipeContent from "./SwipeContent/SwipeContent";
 
 function GranularSwipe() {
