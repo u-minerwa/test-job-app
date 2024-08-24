@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import classes from './GranularSwipe.module.css';
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import DotsIndicator from "./SwipeContent/DotsIndicator/DotsIndicator";
-import DotsIndicatorM from "./SwipeContent/DotsIndicatorM/DotsIndicatorM";
 import SwipeContent from "./SwipeContent/SwipeContent";
 import OvalsSvg from "./OvalsSvg/OvalsSvg";
+import DotsSwipe from "../DotsSwipe/DotsSwipe";
 
 function GranularSwipe() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -22,8 +21,7 @@ function GranularSwipe() {
                 <SwiperSlide> <SwipeContent /> </SwiperSlide>
             </Swiper>
             <OvalsSvg />
-            <DotsIndicator activeIndex={activeIndex} />
-            <DotsIndicatorM activeIndex={activeIndex} />
+            <DotsSwipe activeIndex={activeIndex} />
         </div>
     );
 }
