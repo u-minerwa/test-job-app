@@ -4,6 +4,7 @@ import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import DotsIndicator from "./DotsIndicator/DotsIndicator";
 import DotsIndicatorM from "./DotsIndicatorM/DotsIndicatorM";
+import SwipeContent from "./SwipeContent/SwipeContent";
 
 function GranularSwipe() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -14,13 +15,10 @@ function GranularSwipe() {
                 spaceBetween={30}
                 slidesPerView={1}
                 mousewheel={{ enabled: true }}
-                onSlideChange={(swiper) => {
-                    console.log('slide change', swiper.activeIndex);
-                    setActiveIndex(swiper.activeIndex); 
-                }}>
-                <SwiperSlide>Блок 1</SwiperSlide>
-                <SwiperSlide>Блок 2</SwiperSlide>
-                <SwiperSlide>Блок 3</SwiperSlide>
+                onSlideChange={(swiper) => { setActiveIndex(swiper.activeIndex); }}>
+                <SwiperSlide> <SwipeContent /> </SwiperSlide>
+                <SwiperSlide> <SwipeContent /> </SwiperSlide>
+                <SwiperSlide> <SwipeContent /> </SwiperSlide>
             </Swiper>
             <DotsIndicator activeIndex={activeIndex} />
             <DotsIndicatorM activeIndex={activeIndex} />

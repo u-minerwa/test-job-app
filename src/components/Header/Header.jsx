@@ -5,10 +5,10 @@ import Prezentation from "./Prezentation/Prezentation";
 
 function Header() {
     return (
-        <div className={classes.header}>
+        <header className={classes.header}>
             <NavMenu />
             <Prezentation />
-        </div>
+        </header>
     )
 }
 
