@@ -1,0 +1,6 @@
+.swiper {
+    position: relative;
+    cursor: ew-resize;
+    display: flex;
+    flex-direction: row;
+}

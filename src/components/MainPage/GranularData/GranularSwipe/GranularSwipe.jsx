@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import DotsIndicator from "./SwipeContent/DotsIndicator/DotsIndicator";
 import DotsIndicatorM from "./SwipeContent/DotsIndicatorM/DotsIndicatorM";
 import SwipeContent from "./SwipeContent/SwipeContent";
+import OvalsSvg from "./OvalsSvg/OvalsSvg";
 
 function GranularSwipe() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -20,6 +21,7 @@ function GranularSwipe() {
                 <SwiperSlide> <SwipeContent /> </SwiperSlide>
                 <SwiperSlide> <SwipeContent /> </SwiperSlide>
             </Swiper>
+            <OvalsSvg />
             <DotsIndicator activeIndex={activeIndex} />
             <DotsIndicatorM activeIndex={activeIndex} />
         </div>
