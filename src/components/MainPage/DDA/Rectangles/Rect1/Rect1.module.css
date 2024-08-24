@@ -3,6 +3,7 @@
     height: 325px;
     z-index: 3;
     background-image: url("./../../../../../../public/rect1data.jfif");
+    filter: hue-rotate(140deg) saturate(1) brightness(1);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +26,7 @@
     margin-left: 15px;
     margin-bottom: 40px;
     background-color: rgba(224, 30, 46, 1);
+    filter: hue-rotate(-140deg) saturate(1) brightness(1);
     border-radius: 50%;
     display: flex;
     align-items: center;
