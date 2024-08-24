@@ -1,10 +1,13 @@
 import React from "react";
 import classes from './SwipeContent.module.css';
+import SwipeContentL from "./SwipeContentL/SwipeContentL";
+import SwipeContentR from "./SwipeContentR/SwipeContentR";
 
 function SwipeContent() {
     return (
         <div className={classes.content}>
-            Контент
+            <SwipeContentL />
+            <SwipeContentR />
         </div>
     )
 }
