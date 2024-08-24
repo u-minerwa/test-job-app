@@ -14,3 +14,11 @@
 .prezentation button:hover {
     background-color: rgb(234, 64, 78);
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .prezentation button {
+        border-radius: 15px;
+        padding: 10px 30px 10px 30px;
+        transform: scale(0.9);
+    }
+}

@@ -8,11 +8,6 @@
 
 @media (min-width: 769px) and (max-width: 1200px) {
     .pressure {
-        width: 1350px;
-        height: 800px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         transform: scale(0.8);
     }
 }
