@@ -4,3 +4,13 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .granularData {
+        width: 1200px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        transform: scale(0.8);
+    }
+}
