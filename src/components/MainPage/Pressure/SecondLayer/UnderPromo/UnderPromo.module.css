@@ -27,3 +27,9 @@
 .buttonWhy button:hover {
     background-color: rgb(234, 64, 78);
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .buttonWhy button {
+        margin-bottom: 50px;
+    }
+}

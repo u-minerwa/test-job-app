@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./LineChart.module.css"
 import { Line } from "react-chartjs-2";
 import {
     Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineController, Title,
@@ -103,7 +104,7 @@ const options = {
 
 const LineChart = () => {
     return (
-        <div>
+        <div className={classes.canvas}>
             <Line data={data} options={options} />
         </div>
     );

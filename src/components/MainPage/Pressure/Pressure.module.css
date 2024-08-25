@@ -11,3 +11,12 @@
         transform: scale(0.8);
     }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .pressure {
+        width: 100%;
+        flex-direction: column;
+        transform: scale(0.7);
+        justify-content: center;
+    }
+}

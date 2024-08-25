@@ -24,3 +24,13 @@
     color: bisque;
 }
 
+@media (min-width: 577px) and (max-width: 768px) {
+    .navigationmenu {
+        width: auto;
+        font-weight: 500;
+    }
+
+    .item {
+        margin-right: 10px;
+    }
+}

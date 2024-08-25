@@ -1,6 +1,6 @@
 .granularData {
     width: 1200px;
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: column;
 }
@@ -8,5 +8,12 @@
 @media (min-width: 769px) and (max-width: 1200px) {
     .granularData {
         transform: scale(0.8);
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .granularData {
+        height: auto;
+        transform: scale(0.5);
     }
 }

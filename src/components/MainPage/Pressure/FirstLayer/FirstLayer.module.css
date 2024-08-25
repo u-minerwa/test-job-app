@@ -3,3 +3,11 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .firstLayer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
