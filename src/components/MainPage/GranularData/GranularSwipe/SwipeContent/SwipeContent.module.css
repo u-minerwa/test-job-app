@@ -13,3 +13,11 @@
         align-items: center;
     }
 }
+
+@media (max-width: 320px) {
+    .content {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

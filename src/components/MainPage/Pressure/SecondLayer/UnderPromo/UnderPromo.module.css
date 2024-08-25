@@ -34,7 +34,7 @@
     }
 }
 
-@media (min-width: 321px) and (max-width: 576px) {
+@media (max-width: 576px) {
     .buttonWhy button {
         margin-bottom: 30px;
     }

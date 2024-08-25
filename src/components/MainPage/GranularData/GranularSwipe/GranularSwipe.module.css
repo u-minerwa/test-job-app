@@ -4,3 +4,9 @@
     display: flex;
     flex-direction: row;
 }
+
+@media (max-width: 320px) {
+    .swiper {
+        margin-bottom: -200px;
+    }
+}
