@@ -1,0 +1,59 @@
+.header {
+    height: 100px;
+    z-index: 5;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    &__menu-button {
+        display: none;
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    &__nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        padding: 0;
+        z-index: 9;
+        transform: translateY(-200%);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    &--show {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    // Медиазапросы
+    @media (min-width: 577px) and (max-width: 768px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media (min-width: 321px) and (max-width: 576px) {
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media (max-width: 576px) {
+        &__menu-button {
+            display: block;
+        }
+    }
+}
