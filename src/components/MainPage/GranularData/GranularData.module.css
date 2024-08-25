@@ -20,7 +20,8 @@
 
 @media (min-width: 321px) and (max-width: 576px) {
     .granularData {
+        max-width: 600px;
         height: auto;
-        transform: scale(0.3);
+        transform: scale(0.8);
     }
 }

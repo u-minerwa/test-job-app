@@ -5,3 +5,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (min-width: 321px) and (max-width: 576px) {
+    .content {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

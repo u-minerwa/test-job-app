@@ -10,3 +10,11 @@
         margin-top: 50px;
     }
 }
+
+@media (min-width: 321px) and (max-width: 576px) {
+    .secondLayer {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+}

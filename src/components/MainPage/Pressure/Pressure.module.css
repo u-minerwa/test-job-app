@@ -15,7 +15,6 @@
 @media (min-width: 577px) and (max-width: 768px) {
     .pressure {
         width: 100%;
-        flex-direction: column;
         transform: scale(0.7);
         justify-content: center;
         margin-top: 50px;
@@ -24,8 +23,8 @@
 
 @media (min-width: 321px) and (max-width: 576px) {
     .pressure {
-        transform: scale(0.3);
-        justify-content: center;
-        margin-top: 30px;
+        max-width: 950px;
+        transform: scale(0.6);
+        margin-top: -130px;
     }
 }

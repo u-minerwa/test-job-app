@@ -25,3 +25,9 @@
         margin-bottom: 20px;
     }
 }
+
+@media (min-width: 321px) and (max-width: 576px) {
+    .granularText {
+        margin-bottom: 20px;
+    }
+}
