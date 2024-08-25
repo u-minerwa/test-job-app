@@ -22,3 +22,16 @@
         flex-direction: column;
     }
 }
+
+@media (min-width: 321px) and (max-width: 576px) {
+    .rectangles {
+        width: auto;
+        height: 1000px;
+        transform: scale(0.9);
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+}
