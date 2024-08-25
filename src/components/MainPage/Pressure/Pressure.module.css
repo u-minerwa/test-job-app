@@ -21,3 +21,11 @@
         margin-top: 50px;
     }
 }
+
+@media (min-width: 321px) and (max-width: 576px) {
+    .pressure {
+        transform: scale(0.3);
+        justify-content: center;
+        margin-top: 30px;
+    }
+}

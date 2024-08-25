@@ -27,7 +27,7 @@
     .rectangles {
         width: auto;
         height: 1000px;
-        transform: scale(0.9);
+        transform: scale(0.8);
         justify-content: space-between;
         flex-direction: column;
     }
