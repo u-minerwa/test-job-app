@@ -35,8 +35,18 @@
     }
 }
 
-@media (min-width: 321px) and (max-width: 576px) {
-}
+@media (min-width: 321px) and (max-width: 576px) {}
 
-@media (max-width: 320px) {
+@media (max-width: 320px) {}
+
+@media (max-width: 576px) {
+    .navigationmenu {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        margin: 10px 0;
+    }
 }
