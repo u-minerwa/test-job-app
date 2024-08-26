@@ -1,0 +1,38 @@
+.rectangles {
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    @media (min-width: 769px) and (max-width: 1200px) {
+        width: 1200px;
+        justify-content: space-evenly;
+        transform: scale(0.9);
+    }
+
+    @media (min-width: 577px) and (max-width: 768px) {
+        width: 800px;
+        height: 900px;
+        transform: scale(0.8);
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    @media (min-width: 321px) and (max-width: 576px) {
+        width: auto;
+        height: 1000px;
+        transform: scale(0.8);
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    @media (max-width: 320px) {
+        width: auto;
+        height: 900px;
+        margin-top: -200px;
+        margin-bottom: -200px;
+        transform: scale(0.5);
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

@@ -1,5 +1,6 @@
 import React from "react";
-import classes from './Rectangles.module.css';
+// import classes from './Rectangles.module.css';
+import classes from './Rectangles.module.scss';
 import Rect1 from "./Rect1/Rect1";
 import Rect3 from "./Rect3/Rect3";
 import Rect2 from "./Rect2/Rect2";

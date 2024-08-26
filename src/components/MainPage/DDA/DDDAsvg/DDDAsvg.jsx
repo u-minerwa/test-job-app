@@ -1,9 +1,10 @@
 import React from "react";
-import classes from './DDDAsvg.module.css';
+// import classes from './DDDAsvg.module.css';
+import classes from './DDDAsvg.module.scss';
 
 function DDDAsvg() {
     return (
-        <div className={classes.dddasvg}>
+        <div className={classes['ddda-svg']}>
             <svg width="452" height="80" viewBox="0 0 452 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M160.58 80H140.9V76.9485L175.23 0H183.92L217.91 76.9485V80H198.23L179.92 35.2549H179.35L160.58 80Z" fill="white" />
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M100.09 0.908557H97.8V19.326H100.09C125.6 19.326 125.6 61.5825 100.09 61.5825H97.8V79.9901H100.09C152.26 79.9901 152.26 0.898682 100.09 0.898682V0.908557ZM85.09 0.908557H64.62V79.9901H85.1V61.5825V19.326L85.09 0.908557Z" fill="white" />
