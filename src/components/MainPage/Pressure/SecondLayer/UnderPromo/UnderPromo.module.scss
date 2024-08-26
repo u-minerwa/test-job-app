@@ -1,0 +1,39 @@
+.under-promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    &__graphic {
+        width: 600px;
+        height: 350px;
+    }
+
+    &__button-why {
+        & button {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: white;
+            line-height: 24px;
+            border: none;
+            background-color: rgba(224, 30, 46, 1);
+            border-radius: 5px;
+            padding: 10px 50px 10px 50px;
+            cursor: pointer;
+            margin-bottom: 200px;
+
+            &:hover {
+                background-color: rgb(234, 64, 78);
+            }
+
+            @media (min-width: 577px) and (max-width: 768px) {
+                margin-bottom: 50px;
+            }
+
+            @media (max-width: 576px) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
