@@ -1,0 +1,22 @@
+.second-layer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    @media (min-width: 577px) and (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    @media (min-width: 321px) and (max-width: 576px) {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    @media (max-width: 320px) {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+}

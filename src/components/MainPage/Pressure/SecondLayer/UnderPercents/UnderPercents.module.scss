@@ -1,0 +1,87 @@
+.under-percents {
+    position: relative;
+    width: 650px;
+    height: 650px;
+
+    &__svg1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+
+    &__svg2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        margin-top: 355px;
+        margin-left: 28px;
+    }
+
+    &__svg3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        margin-top: 22px;
+        margin-left: 173px;
+    }
+
+    &__svg4 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        margin-top: 71px;
+        margin-left: 385px;
+    }
+
+    &__svg5 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        margin-top: 128px;
+        margin-left: 569px;
+    }
+
+    &__svg6 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        margin-top: 328px;
+        margin-left: 530px;
+    }
+
+    &__svg7 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        margin-top: 180px;
+        margin-left: 88px;
+    }
+
+    &__ellipse {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        margin-top: 550px;
+        margin-left: 45px;
+    }
+
+    &__png-pic {
+        & img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 6;
+            height: 544px;
+            margin-top: 50px;
+            margin-left: 80px;
+        }
+    }
+}
