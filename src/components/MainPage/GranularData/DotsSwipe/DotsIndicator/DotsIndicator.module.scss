@@ -1,0 +1,19 @@
+.dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    &__dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        transition: background-color 0.3s ease-out;
+        border: 1px solid rgba(196, 196, 196, 1);
+    }
+
+    &--active {
+        border: 1px solid rgba(224, 30, 46, 1);
+    }
+}
