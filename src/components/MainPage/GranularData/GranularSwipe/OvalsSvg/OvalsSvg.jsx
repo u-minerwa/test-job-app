@@ -1,5 +1,6 @@
 import React from "react";
-import classes from './OvalsSvg.module.css';
+// import classes from './OvalsSvg.module.css';
+import classes from './OvalsSvg.module.scss'; 
 
 function OvalsSvg() {
     return (

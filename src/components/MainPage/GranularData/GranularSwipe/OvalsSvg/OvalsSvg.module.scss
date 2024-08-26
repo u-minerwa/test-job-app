@@ -1,0 +1,11 @@
+.ovals {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (max-width: 320px) {
+        & svg {
+            max-width: 320px;
+        }
+    }
+}
