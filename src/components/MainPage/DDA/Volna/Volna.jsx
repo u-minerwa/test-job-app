@@ -1,5 +1,6 @@
 import React from "react";
-import classes from './Volna.module.css';
+// import classes from './Volna.module.css';
+import classes from './Volna.module.scss';
 
 function Volna() {
     return (
