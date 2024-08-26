@@ -34,8 +34,15 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 321px) and (max-width: 576px) {
     .buttonWhy button {
         margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .buttonWhy button {
+        margin-bottom: 50px;
+        transform: scale(2);
     }
 }
