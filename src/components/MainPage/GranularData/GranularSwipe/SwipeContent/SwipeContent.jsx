@@ -1,5 +1,6 @@
 import React from "react";
-import classes from './SwipeContent.module.css';
+// import classes from './SwipeContent.module.css';
+import classes from './SwipeContent.module.scss';
 import SwipeContentL from "./SwipeContentL/SwipeContentL";
 import SwipeContentR from "./SwipeContentR/SwipeContentR";
 

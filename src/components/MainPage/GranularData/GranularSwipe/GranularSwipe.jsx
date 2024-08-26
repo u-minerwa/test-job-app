@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import classes from './GranularSwipe.module.css';
+// import classes from './GranularSwipe.module.css';
+import classes from './GranularSwipe.module.scss';
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwipeContent from "./SwipeContent/SwipeContent";
